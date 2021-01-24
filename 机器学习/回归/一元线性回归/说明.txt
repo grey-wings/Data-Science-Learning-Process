@@ -1,0 +1,8 @@
+一元线性回归示例
+模板：
+1. 读取txt文件
+2. 划分数据集
+3. reshape（LinearRegression要求二维数组）
+4. matplotlib 散点图、一次函数（二次函数等同理）
+5. 一元线性回归模型的fit和predict
+6. MSE（均方误差）检验
