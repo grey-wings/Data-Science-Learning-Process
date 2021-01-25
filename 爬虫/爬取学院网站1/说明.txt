@@ -1,2 +1,6 @@
 爬取了学院艾老师的网站
 Selenium WebDriver第一次实战
+
+使用的模板和操作
+1.下载和配置chromedriver
+2.使用
