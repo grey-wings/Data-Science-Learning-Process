@@ -7,5 +7,5 @@ KNN分类
 不要忘记归一化！！！
 不要忘记归一化！！！
 提供归一化模板（Min-Max Normalization）
-3.KNN分类
+3.KNN分类的模型建立、预测和评分
 4.cross_val_score交叉验证
