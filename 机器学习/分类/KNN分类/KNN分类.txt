@@ -3,5 +3,9 @@ KNN分类
 模板：
 0.读取TXT文件并存入numpy
 1.测试集划分（应用）
-2.KNN分类
-3.cross_val_score交叉验证
+2.不要忘记归一化！！！
+不要忘记归一化！！！
+不要忘记归一化！！！
+提供归一化模板（Min-Max Normalization）
+3.KNN分类
+4.cross_val_score交叉验证
