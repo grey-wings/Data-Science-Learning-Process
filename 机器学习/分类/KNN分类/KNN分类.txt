@@ -1,0 +1,7 @@
+KNN分类
+
+模板：
+0.读取TXT文件并存入numpy
+1.测试集划分（应用）
+2.KNN分类
+3.cross_val_score交叉验证
