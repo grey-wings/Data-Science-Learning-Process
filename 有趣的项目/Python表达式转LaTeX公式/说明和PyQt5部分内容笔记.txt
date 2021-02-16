@@ -1,1 +1,11 @@
 
+# Created on 2021.2.16
+这是一个尝试将Python输入的表达式转化成LaTeX风格的公式
+毕竟没学过LaTeX，但切实体验过在Word里面写公式的痛苦。
+
+安装和配置Designer教程见CSDN博客
+
+一、handcalcs的使用
+1.handcalcs介绍
+handcalcs 库可将 Python 计算代码自动渲染为 Latex 公式，呈现方式类似于手写的公式计算：先编写符号公式，再代入具体数字，最后得出结果。
+它可以用于复杂公式的正确性自查等功能。
