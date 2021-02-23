@@ -2,6 +2,7 @@ import PyPDF2
 import pikepdf
 import time
 import os
+from glob import glob
 
 
 def pdf_Crack(startFile, endFile):
@@ -34,6 +35,49 @@ def batch_pdf_Crack(folderPath):
                 pdf.save(file)
 
 
+# def split_PDF_pages(filePath, savePath, pageEnd, pageBeg):
+#     """
+#     将pdf的第pageBeg到第pageEnd页截取出来,保存至savePath.
+#     :param filePath:
+#     :param pageBeg:
+#     :param pageEnd:
+#     :return:
+#     """
+#     # 未成功
+#     with pikepdf.open(filePath) as pdf:
+#         dst = pikepdf.new()
+#         for n, page in enumerate(pdf.pages[pageBeg-1:pageEnd]):
+#             dst.pages.append(page)
+#         dst.save(savePath)
+
+
+def deletePages(filePath, savePath, begin, end):
+    """
+    删除pdf的第begin页到第end页，第end页也被删除，计数从1开始。
+    :param filePath: 要删除页面的文件
+    :param begin: 开始删除的页面（第1页为1）
+    :param end: ……
+    :return:
+    """
+    with pikepdf.open(filePath) as pdf:
+        del pdf.pages[begin - 1:end]
+        pdf.save(savePath)
+
+
+def PDF_Merge(filePath1, filePath2, savePath):
+    """
+    合并两个pdf文件
+    :param filePath1:
+    :param filePath2:
+    :param savePath: 保存路径和文件名
+    :return:
+    """
+    pdf = pikepdf.new()
+    with pikepdf.open(filePath1) as pdf1:
+        pdf.pages.extend(pdf1)
+        with pikepdf.open(filePath2) as pdf2:
+            pdf.pages.extend(pdf2)
+
 
 if __name__ == "__main__":
-    batch_pdf_Crack('C:\\Users\\15594\\Desktop\\文件')
+    pass
