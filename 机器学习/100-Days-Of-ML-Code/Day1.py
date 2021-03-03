@@ -6,7 +6,7 @@ from sklearn import preprocessing
 """读入csv文件"""
 dataset = pd.read_csv("Data.csv")
 X = dataset.iloc[:, :-1].values  # .values将DataFrame转为ndarray;df包括索引名字
-y = dataset.iloc[:, 3].values  # 这里X读取的是除掉最后一列的数据，y是最后一列
+y = dataset.iloc[:, -1].values  # 这里X读取的是除掉最后一列的数据，y是最后一列
 
 """处理丢失数据
 详见：
