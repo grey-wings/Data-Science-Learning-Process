@@ -19,3 +19,7 @@
 ## [Day3 多元线性回归](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day3.py)
 ### 1.数据预处理
 所有步骤参照Day1
+### 2.避免虚拟变量陷阱
+### 3.输出参数和截距
+### 4.预测
+regressor.predict(X_test)
