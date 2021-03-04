@@ -26,3 +26,8 @@
 regressor.predict(X_test)
 
 ## [Day4,5,6 Logistic回归](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day4_5_6.py)
+### 1.数据预处理
+### 2.训练和预测
+### 3.输出混淆矩阵
+### 4.作图分析结果
+np.meshgrid; plt.contourf; plt.scatter; plt作图和图例相关操作
