@@ -31,3 +31,7 @@ regressor.predict(X_test)
 ### 3.输出混淆矩阵
 ### 4.作图分析结果
 np.meshgrid; plt.contourf; plt.scatter; plt作图和图例相关操作
+
+## [Day11 K-NN（没写）]
+
+## [Day4,5,6 Logistic回归]
