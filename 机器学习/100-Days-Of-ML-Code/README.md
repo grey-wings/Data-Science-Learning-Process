@@ -34,4 +34,4 @@ np.meshgrid; plt.contourf; plt.scatter; plt作图和图例相关操作
 
 ## [Day11 K-NN（没写）]
 
-## [Day4,5,6 Logistic回归](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day9_10_11_12_14.py)
+## [Day9,10,11,12,14 SVM](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day9_10_11_12_14.py)
