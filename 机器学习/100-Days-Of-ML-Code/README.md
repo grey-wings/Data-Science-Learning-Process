@@ -2,6 +2,7 @@
 ## [Day1 数据预处理](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day1.py)
 ### 1.导入库
 ### 2.读取csv文件
+<font color=#FF0000> 注意！！！DataFrame.values是属性而不是方法，不能加括号，否则会报错：TypeError: 'numpy.ndarray' object is not callable </font>   
 ### 3.处理丢失数据
 将nan等非数据值替换为平均值或中间值等。
 ### 4.解析分类数据
@@ -23,3 +24,5 @@
 ### 3.输出参数和截距
 ### 4.预测
 regressor.predict(X_test)
+
+## [Day4,5,6 Logistic回归](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day4_5_6.py)
