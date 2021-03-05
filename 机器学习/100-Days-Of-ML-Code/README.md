@@ -34,7 +34,9 @@ np.meshgrid; plt.contourf; plt.scatter; plt作图和图例相关操作
 
 ## [Day11 K-NN（没写）]
 
-## [Day9,10,11,12,14 支持向量机](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day9_10_11_12_14.py)
+## Day9,10,11,12,14 支持向量机
+## [线性核](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day9_10_11_12_14(%E7%BA%BF%E6%80%A7%E6%A0%B8).py)
+## [高斯核](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day9_10_11_12_14(%E9%AB%98%E6%96%AF%E6%A0%B8).py)
 ### 1.数据预处理
 ### 2.训练
 sklearn.svm函数用法
