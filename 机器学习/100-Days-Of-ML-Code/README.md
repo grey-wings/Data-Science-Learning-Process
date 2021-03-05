@@ -35,3 +35,10 @@ np.meshgrid; plt.contourf; plt.scatter; plt作图和图例相关操作
 ## [Day11 K-NN（没写）]
 
 ## [Day9,10,11,12,14 支持向量机](https://github.com/grey-wings/Data-Science-Learning-Process/blob/main/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/100-Days-Of-ML-Code/Day9_10_11_12_14.py)
+### 1.数据预处理
+### 2.训练
+sklearn.svm函数用法
+![Alt](https://img-blog.csdnimg.cn/20190620220741697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTk5MDI3OA==,size_16,color_FFFFFF,t_70)
+
+grmma参数含义
+![Alt](http://image109.360doc.com/DownloadImg/2018/05/2510/133952271_4_20180525102059160)
