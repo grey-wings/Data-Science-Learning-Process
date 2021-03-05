@@ -38,7 +38,12 @@ np.meshgrid; plt.contourf; plt.scatter; plt作图和图例相关操作
 ### 1.数据预处理
 ### 2.训练
 sklearn.svm函数用法
+调整参数（虽然没调出来）
+
 ![Alt](https://img-blog.csdnimg.cn/20190620220741697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTk5MDI3OA==,size_16,color_FFFFFF,t_70)
 
 grmma参数含义
 ![Alt](http://image109.360doc.com/DownloadImg/2018/05/2510/133952271_4_20180525102059160)
+### 3.评估
+混淆矩阵、f1_score
+### 3.可视化（同logistic回归）
